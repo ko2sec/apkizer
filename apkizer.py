@@ -19,14 +19,7 @@ def main():
     package_name = args.p
     package_url = ""
     download_list = []
-    response = "Cloudflared"
-    while response == "Cloudflared":
-        response = scraper.get("https://apkpure.com/tr/search?q=" + package_name).text
-        # if "Cloudflare Ray ID" in response:
-        #     response = "Cloudflared"
-        #     print("Cloudflare couldn't bypassed, trying again..")
-        # else:
-        #     break
+    response = scraper.get("https://apkpure.com/tr/search?q=" + package_name).text
 
     soup = bs4.BeautifulSoup(response, "html.parser")
     a_elements = soup.find_all("a")
