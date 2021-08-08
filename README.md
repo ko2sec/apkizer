@@ -32,4 +32,4 @@ Use this command to get all available versions of Twitter android application un
 
 # Feedback
 
-Please use [Issues](https://github.com/ko2sec/apkizer/issues) section for bugs and feature requests. If you want to contact for another subjects you can send DM [@ko2sec](https://github.com/ko2sec/apkizer/issues).
+Please use [Issues](https://github.com/ko2sec/apkizer/issues) section for bugs and feature requests. If you want to contact for another subjects you can send DM [@ko2sec](twitter.com/ko2sec).
