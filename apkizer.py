@@ -72,7 +72,7 @@ def main():
 
     for apk_url in download_version_list:
         download_page = scraper.get(base_url + apk_url).text
-        if "Download Variant XAPKS" in download_page:
+        if "Download Variant" in download_page:
             """
             There are sometimes APK variants in terms of architecture,
             we need to analyze it before getting download link.
